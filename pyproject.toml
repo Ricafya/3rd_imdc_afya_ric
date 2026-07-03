@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "3rd_imdc_afya_ric"
+version = "0.1.0"
+description = ""
+authors = ["Marcela Motta de Castro <marcela.motta@afya.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.10"
+mosqlient = "1.5.2"
+epiweeks = "^2.3.0"
+jupyter = "^1.0.0"
+pmdarima = "^2.0.4"
+python-dotenv = "^1.0.1"
+numpy==1.24.4
+pandas==1.4.2
+torch==2.4.1
+scikit-learn==1.3.2
+matplotlib==3.7.5
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
